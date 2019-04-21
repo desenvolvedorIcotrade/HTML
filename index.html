@@ -1,6 +1,73 @@
 <html>
   <head>
   <body>
+    
+    <script>(function(h,o,t,j,a,r){h.hj=h.hj||function(){(h.hj.q=h.hj.q||[]).push(arguments)};h._hjSettings={hjid:869569,hjsv:6};a=o.getElementsByTagName('head')[0];r=o.createElement('script');r.async=1;r.src=t+h._hjSettings.hjid+j+h._hjSettings.hjsv;a.appendChild(r);})(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');(function(){var f=function(){$('#bt_porcentagem1').click(function()
+{porcentagem1();});$('#bt_porcentagem2').click(function()
+{porcentagem2();});$('#bt_porcentagem3').click(function()
+{porcentagem3();});$('#bt_porcentagem4').click(function()
+{porcentagem4();});$('#bt_porcentagem5').click(function()
+{porcentagem5();});$('#bt_porcentagem6').click(function()
+{porcentagem6();});$('#bt_porcentagem7').click(function()
+{porcentagem7();});$('#bt_porcentagem8').click(function()
+{porcentagem8();});$('#bt_porcentagem9').click(function()
+{porcentagem9();});};window[window.attachEvent?'attachEvent':'addEventListener'](window.attachEvent?'onload':'load',f,false);})();function porcentagem1()
+{$.ajax({url:'ferramentas_matematica.php',dataType:"json",data:{acao:"porcentagem1",num1:$('#porc1_num1').val(),num2:$('#porc1_num2').val()},method:"post",success:function(data){if(data.situacao=="S")
+{$('#porc1_resposta').val(data.resposta);}
+else if(data.situacao=="N")
+{alert(data.erro);}},error:function(jqXHR,exception){alert(jqXHR.responseText);}});}
+function porcentagem2()
+{$.ajax({url:'ferramentas_matematica.php',dataType:"json",data:{acao:"porcentagem2",num1:$('#porc2_num1').val(),num2:$('#porc2_num2').val()},method:"post",success:function(data){if(data.situacao=="S")
+{$('#porc2_resposta').val(data.resposta);}
+else if(data.situacao=="N")
+{alert(data.erro);}},error:function(jqXHR,exception){alert(jqXHR.responseText);}});}
+function porcentagem3()
+{$.ajax({url:'ferramentas_matematica.php',dataType:"json",data:{acao:"porcentagem3",num1:$('#porc3_num1').val(),num2:$('#porc3_num2').val()},method:"post",success:function(data){if(data.situacao=="S")
+{$('#porc3_resposta').val(data.resposta);}
+else if(data.situacao=="N")
+{alert(data.erro);}},error:function(jqXHR,exception){alert(jqXHR.responseText);}});}
+function porcentagem4()
+{$.ajax({url:'ferramentas_matematica.php',dataType:"json",data:{acao:"porcentagem4",num1:$('#porc4_num1').val(),num2:$('#porc4_num2').val()},method:"post",success:function(data){if(data.situacao=="S")
+{$('#porc4_resposta').val(data.resposta);}
+else if(data.situacao=="N")
+{alert(data.erro);}},error:function(jqXHR,exception){alert(jqXHR.responseText);}});}
+function porcentagem5()
+{$.ajax({url:'ferramentas_matematica.php',dataType:"json",data:{acao:"porcentagem5",num1:$('#porc5_num1').val(),num2:$('#porc5_num2').val()},method:"post",success:function(data){if(data.situacao=="S")
+{$('#porc5_resposta').val(data.resposta);}
+else if(data.situacao=="N")
+{alert(data.erro);}},error:function(jqXHR,exception){alert(jqXHR.responseText);}});}
+function porcentagem6()
+{$.ajax({url:'ferramentas_matematica.php',dataType:"json",data:{acao:"porcentagem6",num1:$('#porc6_num1').val(),num2:$('#porc6_num2').val()},method:"post",success:function(data){if(data.situacao=="S")
+{$('#porc6_resposta').val(data.resposta);}
+else if(data.situacao=="N")
+{alert(data.erro);}},error:function(jqXHR,exception){alert(jqXHR.responseText);}});}
+function porcentagem7()
+{$.ajax({url:'ferramentas_matematica.php',dataType:"json",data:{acao:"porcentagem7",num1:$('#porc7_num1').val(),num2:$('#porc7_num2').val()},method:"post",success:function(data){if(data.situacao=="S")
+{$('#porc7_resposta').val(data.resposta);}
+else if(data.situacao=="N")
+{alert(data.erro);}},error:function(jqXHR,exception){alert(jqXHR.responseText);}});}
+function porcentagem8()
+{$.ajax({url:'ferramentas_matematica.php',dataType:"json",data:{acao:"porcentagem8",num1:$('#porc8_num1').val(),num2:$('#porc8_num2').val()},method:"post",success:function(data){if(data.situacao=="S")
+{$('#porc8_resposta').val(data.resposta);}
+else if(data.situacao=="N")
+{alert(data.erro);}
+else
+{alert(data);}},error:function(jqXHR,exception){alert(jqXHR.responseText);}});}
+function porcentagem9()
+{$.ajax({url:'ferramentas_matematica.php',dataType:"json",data:{acao:"porcentagem9",num1:$('#porc9_num1').val(),num2:$('#porc9_num2').val()},method:"post",success:function(data){if(data.situacao=="S")
+{$('#porc9_resposta').val(data.resposta);}
+else if(data.situacao=="N")
+{alert(data.erro);}
+else
+{alert(data);}},error:function(jqXHR,exception){alert(jqXHR.responseText);}});}</script>
+    
+    
+    
+    
+    
+    
+    
+    
 
   
     </body>
